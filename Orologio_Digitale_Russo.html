@@ -1,16 +1,23 @@
 <!doctype html>
 <html lang="it">
     <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/Orologio_Digitale_Russo.css">
         <meta charset= "utf-8">
         <meta name="viewpart" content="width=device-width, initial-scale=1">
-        <title>Orologio</title>
-
+        <title>Orologio Digitale</title>
+        
         <!--Metadati di p5.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js%22%3E</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
         <style>
             html, body { margin: 0; padding: 0; background-color: "red"}
             canvas { display: block; }
         </style>
+    </head>
+    <body>
+        <a href="index.html"><h3>Torna al menù principale</h3></a>
+        <h1>Orologio Digitale </h1>
 
         <script>
             function setup() {
@@ -31,17 +38,14 @@
                 circle(200, 200, 150);
 
                 fill(0, 0, 255);
-                arc(200, 200, 150, 150,s,s+1);
+                arc(200, 200, 150, 150, s*6-90, s*6-89);
 
                 fill(0, 255, 0);
-                arc(200, 200, 140, 140,m,m+1);
+                arc(200, 200, 140, 140, m*6-90, m*6-89);
 
                 fill(255, 0, 0);
-                arc(200, 200, 130, 130,h,h+1);
+                arc(200, 200, 130, 130, h*30-90, h*30-89);
             }
         </script>
-    </head>
-    <body>
-        <h1>Orologio Digitale Russo Mario.js</h1>
     </body>
 <html>
