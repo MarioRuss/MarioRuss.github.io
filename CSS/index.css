@@ -1,8 +1,20 @@
 body{
     text-align: center;
-    background-color:darkred;
+    background-color:rgb(0, 204, 255);
     color:black;
     font-family: 'Anton', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin:2%;
+}
