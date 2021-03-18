@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color:rgb(0, 204, 255);
+    background-color:hsl(0, 100%, 50%);
     color:black;
     font-family: 'Anton', sans-serif;
 }
