@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menù</title>
-    <link rel="stylesheet" href="CSS/index.css">
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>Menù </h1>
-    <hr>
+  <head>
+    <meta charset="utf-8">
+    <title>Menu </title>
+    <link rel="stylesheet" href="creazione_menu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.3/dist/darkly/bootstrap.css" integrity="sha256-jN1/3LSOsvNEnOHn1sEOHXKA8RsU+Q7Wk7PE3dLe8Os=" crossorigin="anonymous">
+  </head>
+  <body>
 
-    <ul>
+    <div class="container">
 
-        
-    <li> <a href="Salernitana_Russo.html">La Mia Formazione</a> </li> 
-    <li> <a href="Orologio_Digitale_Russo.html">Orologio</a> </li>
-    <li> <a href="Robot_Russo.html">Robot</a> </li>
-    <li> <a href="Soft_skills.html">Soft Skills</a> </li>
+      <!-- Navbar
+      ================================================== -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Menu</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Salernitana_Russo.html">La Mia Squadra Di Calcio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Orologio_Digitale_Russo.html">Orologio Digitale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Robot_Russo.html">Robot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Soft_skills.html">Soft Skills</a>
+            </li>
+            
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="cerca" placeholder="Cerca" aria-label="Cerca">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerca</button>
+            
+          </form>
+          
+        </div>
+      </nav>
 
-
-
-
-    </ul>
-    
 </body>
 </html>
